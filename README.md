@@ -2,6 +2,7 @@
 Official website of Shuoki Project 🔗
 
 ## Front-end TO-DO
+* [X] Начать работу
 ### Основное
 * [ ] Навбар
 * [ ] Футер
