@@ -5,7 +5,7 @@ body {
     margin: 0;
     font-family: 'Manrope', sans-serif;
     color: white;
-    background-color: black;
+    background-color: rgb(31, 31, 31);
 }
 
 a{
@@ -70,13 +70,15 @@ nav {
     padding: 20px 50px;
     position: absolute;
     right: 0;
-    background-color: #5865F2;
+    background-color: #98a0fd;
     border-bottom: 2px solid transparent;
     transition: 0.3s ease-in-out;
 }
 
 .btn-login:hover {
-    background-color: #3242f0;
+    padding: 20px 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     text-decoration: underline;
 }
 
