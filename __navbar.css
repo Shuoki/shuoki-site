@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+
+    padding: 0;
+    background-color: rgb(36, 43, 53);
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-column {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.ul {
+    margin: 0;
+    display: flex;
+}
+.li {
+    padding: 20px 30px;
+    list-style: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.1s ease-in-out;
+}
+
+.li:hover {
+    background-color: rgb(225, 225, 225, 0.2);
+    border-bottom: 2px solid white;
+}
+
+.li i {
+    margin-right: 5px;
+}
+
+.btn-login {
+    padding: 20px 50px;
+    position: absolute;
+    right: 0;
+    background-color: #5865F2;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #3242f0;
+    text-decoration: underline;
+}
+
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+@media (max-width: 930px) {
+    .ul {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .nav-main {
+        max-height: 0;
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        transition: max-height 1s;
+    }
+
+    .li:hover {
+        background-color: rgb(225, 225, 225, 0.2);
+        border-bottom: 2px solid transparent;
+    }
+
+    .btn-login {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+
+    .nav-main.active {
+        max-height: 400px;
+    }
+    .navbar-toggle {
+        display: flex;
+    }
+    nav {
+        display: block;
+    }
+}
