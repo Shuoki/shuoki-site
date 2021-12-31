@@ -58,8 +58,8 @@ nav {
 }
 
 .li:hover {
-    background-color: rgb(225, 225, 225, 0.2);
-    border-bottom: 2px solid white;
+    background-color: rgb(152, 160, 253, 0.2);
+    border-bottom: 2px solid rgb(152, 160, 253);
 }
 
 .li i {
