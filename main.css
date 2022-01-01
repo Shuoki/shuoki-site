@@ -1,11 +1,35 @@
+.ls-block {
+    padding: 40px;
+    background-color: rgb(36, 43, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .ls-title {
     font-size: 40px;
     padding: 0;
     margin: 0;
+    font-family: "Comfortaa", cursive;
 }
 
 .ls-subtitle {
     padding: 0;
     margin: 0;
+    font-family: "Comfortaa", cursive;
+    font-size: 15px;
+    font-weight: 200;
 }
+
+.ls-btn {
+    padding: 10px 25px;
+    border:2px solid #98a0fd;
+    border-radius: 5px;
+    transition: .15s ease;
+}
+
+.ls-btn:hover {
+    background: #98a0fd;
+}
+
 

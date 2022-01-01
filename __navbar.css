@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Manrope', sans-serif;
     color: white;
-    background-color: rgb(31, 31, 31);
+    background-color: #1f1f1f;
 }
 
 * {
@@ -66,6 +66,8 @@ nav {
     background-color: rgb(152, 160, 253, 0.2);
     
 }
+
+
 
 .li i {
     margin-right: 5px;
